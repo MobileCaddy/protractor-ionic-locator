@@ -1,7 +1,7 @@
 protractor-ionic-locator
 ===
 
-Adds a locators to a protractor instance that find ionic specific elements, such as collection-repeat.
+Adds a locators to a protractor instance that find Ionic specific elements, such as collection-repeat.
 
 ## Installation
 
@@ -18,12 +18,13 @@ onPrepare: function () {
 
 The following locators will be availble in your specs;
 
-###by.collRepeater`
+### by.collRepeater
 
 Find elements inside an ng-repeat.
 
 #### Example
 
+*View*
 ```xhtml
 <div collection-repeat="cat in pets">
   <span>{{cat.name}}</span>
@@ -31,6 +32,7 @@ Find elements inside an ng-repeat.
 </div>
 ```
 
+*Code*
 ```javascript
 // Returns a promise that resolves to an array of WebElements containing
 // all top level elements repeated by the Ionic collection-repeat repeater. 
@@ -43,6 +45,18 @@ var rows = element.all(by.collRepeater('cat in pets'));
 Param            | Type
 ---------------- | -------------
 repeatDescriptor | string
+
+## Testing
+
+If you want to contribute to the package please write tests... these commands run the tests.
+
+```
+$ npm run start
+
+$ npm run webdriver
+
+$ npm run test
+```
 
 ## Credit
 
