@@ -1,0 +1,35 @@
+{
+  "name": "protractor-ionic-locator",
+  "version": "0.0.1",
+  "description": "Adds a locators to a protractor instance that find ionic specific elements.",
+  "scripts": {
+    "start": "node ./tests/server.js",
+    "webdriver:update": "./node_modules/.bin/webdriver-manager update",
+    "webdriver:start": "./node_modules/.bin/webdriver-manager start",
+    "webdriver": "npm run webdriver:update && npm run webdriver:start",
+    "test": "./node_modules/.bin/protractor protractor.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mobilecaddy/protractor-ionic-locator"
+  },
+  "keywords": [
+    "protractor",
+    "ionic",
+    "locator",
+    "collection-repeat"
+  ],
+  "author": "Todd Halfpenny <todd@mobilecaddy.net> (http://developer.mobilecaddy.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mobilecaddy/protractor-ionic-locator/issues"
+  },
+  "homepage": "https://github.com/mobilecaddy/protractor-ionic-locator",
+  "devDependencies": {
+    "express": "^4.10.2",
+    "protractor": "^1.4.0"
+  },
+  "engines": {
+    "node": ">= 0.10.33"
+  }
+}

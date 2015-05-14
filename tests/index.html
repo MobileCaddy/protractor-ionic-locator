@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="//code.ionicframework.com/nightly/css/ionic.css" rel="stylesheet">
+    <script src="//code.ionicframework.com/nightly/js/ionic.bundle.js"></script>
+
+    <!-- your app's js -->
+    <script src="app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">protractor-ionic-locator package test app</h1>
+      </ion-header-bar>
+
+      <ion-content class="has-header" ng-controller="Ctrl"> 
+        <div class="list">
+          <ion-radio
+            collection-repeat="item in list"
+            ng-value="'{{ ::item }}'">
+            {{ ::item.n }}
+          </ion-radio>
+        </div>
+      </ion-content>
+    </ion-pane>
+
+  </body>
+</html>
