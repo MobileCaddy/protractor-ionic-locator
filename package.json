@@ -1,6 +1,6 @@
 {
   "name": "protractor-ionic-locator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Adds a locators to a protractor instance that find ionic specific elements.",
   "scripts": {
     "start": "node ./tests/server.js",
