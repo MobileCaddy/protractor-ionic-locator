@@ -3,6 +3,8 @@ protractor-ionic-locator
 
 Adds a locators to a protractor instance that find Ionic specific elements, such as collection-repeat.
 
+[![Build Status](https://travis-ci.org/toddhalfpenny/protractor-ionic-locator.svg?branch=wip%2Fci)](https://travis-ci.org/toddhalfpenny/protractor-ionic-locator)
+
 ## Installation
 
 `$ npm install protractor-ionic-locator`
@@ -51,8 +53,6 @@ repeatDescriptor | string
 If you want to contribute to the package please write tests... these commands run the tests.
 
 ```
-$ npm run start
-
 $ npm run webdriver
 
 $ npm run test

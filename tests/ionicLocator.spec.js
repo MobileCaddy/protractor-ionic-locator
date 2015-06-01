@@ -1,4 +1,5 @@
 'use strict';
+var expressjs = require('./server.js')
 
 describe('protractor-ionic-locator', function () {
   var _beforeAll = false;
