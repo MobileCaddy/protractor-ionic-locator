@@ -3,7 +3,7 @@ protractor-ionic-locator
 
 Adds a locators to a protractor instance that find Ionic specific elements, such as collection-repeat.
 
-[![Build Status](https://travis-ci.org/toddhalfpenny/protractor-ionic-locator.svg?branch=wip%2Fci)](https://travis-ci.org/toddhalfpenny/protractor-ionic-locator)
+[![Build Status](https://travis-ci.org/MobileCaddy/protractor-ionic-locator.svg)](https://travis-ci.org/MobileCaddy/protractor-ionic-locator)
 
 ## Installation
 
